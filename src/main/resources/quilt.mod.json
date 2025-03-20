@@ -1,25 +1,24 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
+		"group": "io.github.lemonade_avali",
+		"id": "fz_lemonade_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "Fizzy's Lemonade Mod",
+			"description": "Adds several flavours of lemonade, and some extras",
 			"contributors": {
-				"Your name here": "Owner"
+				"Fizzy_": "Main Dev"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"issues": "https://github.com/Lemonade-Avali/FZ_-Lemonade-Mod/issues",
+				"sources": "https://github.com/Lemonade-Avali/FZ_-Lemonade-Mod"
 			},
 			"icon": "assets/example_mod/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.lemonade_avali.fz_lemonade_mod.FZ_Lemonade_Mod"
 		},
 		"depends": [
 			{
@@ -36,5 +35,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "fz_lemonade_mod.mixins.json"
 }
